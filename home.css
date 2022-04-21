@@ -1,0 +1,457 @@
+/** hero section styles */
+.hero_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+}
+
+.hero_left_wrapper{
+    max-width: 360px;
+}
+
+.hero_imgWrapper{
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero_heading{
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--black-1);
+}
+
+.hero_info{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--black-2);
+}
+.button_wrapper{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 768px){
+    .hero_wrapper{
+        flex-direction: row;
+        gap: 0;
+    }
+    .hero_left{
+        flex: 3;
+    }
+    .hero_right{
+        flex: 4;
+    }
+    .hero_heading{
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        }
+.hero_info{
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.8rem;
+}
+.button_wrapper{
+    text-align: left;
+}
+.hero_imgWrapper{
+    max-width: none;
+    width: 90%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+	.hero__left,
+	.hero__right {
+		flex: 1;
+	}
+}
+
+/* Our Specials Styles */
+
+#ourSpecials{
+    padding-top: 10rem;
+}
+
+.ourSpecials_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.ourSpecials_left{
+    display: flex;
+    gap: 1rem;
+}
+
+.ourSpecials_item{
+    background-color: var(--lightGreen-1);
+    padding: 1.2rem;
+    padding-top: 5rem;
+    border-radius: 12px;
+    width: 45%;
+    margin: 0 auto;    
+}
+
+.ourSpecials_item_img{
+    margin-top: calc(-50% - 2rem);  
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    height: 250px;
+    overflow: hidden;
+}
+.ourSpecials_item_img img{
+    object-fit: cover;
+}
+.ourSpecials_item_title{
+    font-size: 1.4rem;
+    color: var(--black-1);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.ourSpecials_item_price{
+    color: var(--green-1);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.ourSpecials_item_text{
+    font-size: 1.4rem;
+    color: var(--black-2);
+    font-weight: 500;
+}
+
+.ourSpecials_title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    margin-bottom: 1.5rem;
+}
+.ourSpecials_text{
+    font-size: 1.4rem;
+    color: var(--black-2);
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px){
+    #ourSpecials{
+        padding-top: 15rem;
+    }
+    #ourSpecials .container{
+        max-width: 900px;
+
+    }
+
+    .ourSpecials_wrapper{
+        flex-direction: row;
+    }
+    .ourSpecials_right{
+        flex: 2;
+
+    }
+    .ourSpecials-left{
+        flex: 4;
+        gap: 2rem;
+    }
+    .ourSpecials_item{
+        padding: 2rem;
+    }
+
+    .ourSpecials_item_title{
+        font-size: 2.4rem;
+        line-height: 1.4em;
+        margin-bottom: 1.5rem;
+    }
+    .ourSpecials_item_price{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .ourSpecials_item_text{
+        font-size: 1.8rem;
+    }
+    .ourSpecials_title{
+        font-size: 3.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .ourSpecials_text{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media only screen and (max-width: 300px){
+    .ourSpecials_left{
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+    .ourSpecials_item{
+        width: 100%;
+    }
+}
+/* Why Us Section*/
+
+.whyUs_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.whyUs_left{
+    text-align: center;
+}
+.whyUs_title{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    color: var(--black-1);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.whyUs_text{
+    font-size: 1.4rem;
+}
+.whyUs_items_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.whyUs_item{
+    background-color: var(--lightGreen-1);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.whyUs_item_icon{
+    max-width: 56px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.whyUs_item_text{
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-1);
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .whyUs_wrapper{
+        flex-direction: row;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .whyUs_left{
+        flex: 4;
+        text-align: left;
+    }
+
+    .whyUs_right{
+        flex: 3;
+    }
+    .whyUs_title{
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+    .whyUs_text{
+        font-size: 1.8rem;
+        line-height: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .whyUs_items_wrapper{
+        gap: 1.5rem;
+    }
+    .whyUs_item{
+        padding: 2rem;
+    }
+
+    .whyUs_item_icon{
+        max-width: 65px;
+        margin-bottom: 1.5rem;
+    }
+    .whyUs_icon_text{
+        font-size: 1.8rem;
+    }
+}
+/* Testimonial Section Style */
+.testimonial_wrapper{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.testimonial_title{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--black-1);
+}
+.testimonial_items_wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.testimonial_item{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--lightGreen-1);
+    border-radius: 12px;
+}
+
+.testimonial_item_info{
+    flex: 4;
+}
+
+.testimonial_item_img{
+    flex: 2;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.testimonial_items_img img{
+    object-fit: cover;
+}
+.testimonial_item_name{
+    font-size: 1.4rem;
+    font-family: Poppins;
+    margin-bottom: var(--black-1);
+}
+
+.testimonial_item_stars{
+    max-height: 15px;
+    width: max-content;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial_item_text{
+    font-size: 1.4rem;
+}
+@media only screen and (min-width: 768px) {
+    .testimonial_wrapper{
+        max-width: 900px;
+    }
+    .testimonial_title{
+        font-size: 3.6rem;
+        margin-bottom: 5rem;
+}
+
+.testimonial_items_wrapper{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.testimonial_item{
+    padding: 2rem;
+}
+.testimonial_item_name{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.testimonial_item_stars{
+    margin-bottom: 2rem;
+}
+.testimonial_item_text{
+    font-size: 1.6rem;
+    line-height: 1.4em;
+}
+}
+
+@media only screen and (max-width: 300px) {
+    .testimonial_item{
+        flex-direction: column;
+    }
+    .testimonial_item_img, .testimonial_item_info{
+        flex: auto;
+    }
+}
+
+/* Newsletter Section Styles */
+.newsletter_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green-2);
+    padding: 1.5rem;
+    border-radius: 8px;
+    gap: 2rem;
+}
+
+.newsletter_title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+}
+.newsletter_text{
+    font-size: 1.4rem;
+    color: var(--black-2);
+    font-weight: 500;
+}
+
+.newsletter_form form{
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.newsletter_form label{
+    width: 100%;
+}
+.newsletter_form input{
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1.5rem 1rem;
+    border: none;
+}
+.newsletter_form input::placeholder{
+    color: rgb(168, 166, 166);  
+}
+.newsletter_form button[type="submit"]{
+    background-color: var(--green-1);
+    color: var(--white-1);
+    border: none;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .newsletter_wrapper{
+        flex-direction: row;
+        padding: 5rem;
+        align-items: center;
+    }
+    .newsletter_form,
+     .newsletter_info{
+         flex: 1;
+     }
+     .newsletter_title{
+         font-size: 3.6rem;
+         margin-bottom: 2rem;
+     }
+     .newsletter_text{
+         font-size: 1.8rem;
+         max-width: 400px;
+     }
+     .newsletter_form{
+         max-width: 450px;
+         border-radius: 12px;
+
+     }
+        .newsletter_form input{
+            font-size: 1.8rem;
+            padding: 2rem;
+        }
+        .newsletter_form button[type="submit"]{
+            font-size: 1.8rem;
+            padding: 0 3rem;
+        }
+}
