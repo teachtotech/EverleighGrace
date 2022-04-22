@@ -306,17 +306,19 @@ ol{
     padding: .5rem;
     gap: .5rem;
     border-radius: 8px;
+    
 }
 .dishGrid_item_img{
-    flex: 4;
+    flex: 3;
 }
 
-dishGrid_item_info{
-    flex: 5;
+.dishGrid_item_info{
+    flex: 3;
 }
 .dishGrid_item_img img{
     object-fit: cover;
     border-radius: 12px;
+    height: 600px;
 }
 
 .dishGrid_item_title{

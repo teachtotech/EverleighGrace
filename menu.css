@@ -41,18 +41,22 @@
     gap: 2rem;
     background-color: var(--lightGreen-1);
     padding: 1.5rem;
-    border: 12px;
+    border-radius: 12px;
 }
 .ourSpecials_item_img,
 .ourSpecials_item_info{
-    flex: 1;
+    flex: 2;
+    margin: auto 0;
 }
 .ourSpecials_item_img {
     border-radius: 12px;
     overflow: hidden;
+    height: 200px;
 }
 .ourSpecials_item_img img{
+
     object-fit: cover;
+    
 }
 
 .ourSpecials_item_title{
