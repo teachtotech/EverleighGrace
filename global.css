@@ -6,12 +6,12 @@ html{
 }
 
 :root{
-    --green-1: #26643b;
-	--green-2: #a2de96;
-	--lightGreen-1: #d6e5d8;
-	--lightGreen-2: #f5fcf4;
+    --green-1: #361414;
+	--green-2: #973b44;
+	--lightGreen-2: #dac6c7;
+	--lightGreen-1: #b69193;
 	--black-1: #3b413a;
-	--black-2: #3f3c3c;
+	--black-2: #000000;
 	--black-3: #5b6359;
 	--white-1: #e8e8e8;
 }
