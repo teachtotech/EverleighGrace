@@ -33,7 +33,7 @@
     display: flex;
     gap: 1.5rem;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 500px;
 }
 .ourSpecials_item{
     flex: 1;
@@ -45,7 +45,7 @@
 }
 .ourSpecials_item_img,
 .ourSpecials_item_info{
-    flex: 2;
+    flex: 1;
     margin: auto 0;
 }
 .ourSpecials_item_img {
@@ -54,9 +54,7 @@
     height: 200px;
 }
 .ourSpecials_item_img img{
-
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
 
 .ourSpecials_item_title{
